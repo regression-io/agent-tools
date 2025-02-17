@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agent-tools"
+version = "0.1.0"
+description = "Universal tool decorator for SmolAgents, CrewAI, and Langgraph"
+readme = "README.md"
+authors = [{ name = "Ruze Richards" }]
+license = "Apache-2.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "docstring-parser>=0.15",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/regression-io/agent-tools"
